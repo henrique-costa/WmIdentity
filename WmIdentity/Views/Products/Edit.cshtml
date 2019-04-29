@@ -1,0 +1,104 @@
+﻿@model WmIdentity.Models.Product
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Views/Shared/_SecundaryLayout.cshtml";
+}
+<div class="problemSolver"></div>
+<div class="container">
+    <h2>Editar</h2>
+
+    <hr />
+    <div class="row">
+        <div class="col-md-6">
+            <form asp-action="Edit" method="post" role="form" asp-antiforgery="true" enctype="multipart/form-data">
+
+
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <input type="hidden" asp-for="Id" />
+                <div class="form-group">
+                    <label asp-for="Name" class="control-label"></label>
+                    <input asp-for="Name" class="form-control form-control-lg" />
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Description" class="control-label"></label>
+                    <textarea asp-for="Description" class="form-control form-control-lg"></textarea>
+                    <span asp-validation-for="Description" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+
+                    <label asp-for="Category" class="control-label"></label>
+                    <select asp-for="Category" class="form-control form-control-lg smaller-text" asp-items="Html.GetEnumSelectList<Category>()">
+                        <option selected="selected" value="">Selecione categoria</option>
+                    </select>
+                    <span asp-validation-for="Category" class="text-danger" />
+
+                </div>
+
+                <div class="form-group">
+                    <label class="control-label">Imagem atual:</label>
+                    <img src="~/Uploads/Products/@Model.PhotoPath" alt="Alternate Text" />
+                    <br />
+                </div>
+
+
+                <div class="form-group">
+                    <div class="col-md-10">
+                        <p>Alterar Imagem:</p>
+                        <input asp-for="PhotoPath" type="file" Name="photoPath" />
+                        @*<span asp-validation-for="Photo"  class="text-danger" />*@
+
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <hr />
+                    <label>Subcategorias:</label>
+                    <div class="col-md-offset-2 col-md-10">
+                        <table>
+                            <tr>
+                                @{
+                                    int cnt = 0;
+                                    List<WmIdentity.ViewModels.AssignedSubcategoryData> courses = ViewBag.SubCategories;
+
+                                    foreach (var course in courses)
+                                    {
+                                        if (cnt++ % 3 == 0)
+                                        {
+                                        @:</tr><tr>
+                                        }
+                                        @:<td>
+                                            <input type="checkbox"
+                                                   name="selectedSubCategories"
+                                                   value="@course.SubCatId"
+                                                   @(Html.Raw(course.Assigned ? "checked=\"checked\"" : "")) />
+                                            @:  @course.Title
+                                        @:</td>
+                                    }
+                                @:</tr>
+                                }
+                            </table>
+                        </div>
+                        <hr />
+
+                    </div>
+
+
+
+                    <div class="form-group">
+
+
+                        <a asp-action="Index" class="btn btn-outline-warning"><span class="btn-icon-left fas fa-angle-double-left"></span>Voltar</a>
+                        |
+                        <input type="submit" value="Salvar" class="btn btn-primary" />
+
+
+
+                    </div>
+                </form>
+            </div>
+        </div>
+
+
+    </div>

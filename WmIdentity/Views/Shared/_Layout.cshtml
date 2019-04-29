@@ -1,0 +1,379 @@
+﻿@using Microsoft.AspNetCore.Identity
+
+@inject SignInManager<MyUser> SignInManager
+@inject UserManager<MyUser> UserManager
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - WmIdentity</title>
+
+    <environment include="Development">
+        <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
+
+        @*<link rel="shortcut icon" href="~/images/favicon.png">*@
+        <link rel="apple-touch-icon" href="~/images/apple-touch-icon.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="~/images/apple-touch-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="~/images/apple-touch-icon-114x114.png">
+        <!-- Web Fonts-->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600%7cPlayfair+Display:400i" rel="stylesheet">
+        <!-- Plugins-->
+        <link href="~/css/plugins.min.css" rel="stylesheet" />
+        <!-- Template core CSS-->
+        <link href="~/css/template.css" rel="stylesheet" />
+        <link href="~/css/site.css" rel="stylesheet" />
+
+
+    </environment>
+    <environment exclude="Development">
+        <link rel="stylesheet" href="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.7/css/bootstrap.min.css"
+              asp-fallback-href="~/lib/bootstrap/dist/css/bootstrap.min.css"
+              asp-fallback-test-class="sr-only" asp-fallback-test-property="position" asp-fallback-test-value="absolute" />
+        <link rel="stylesheet" href="~/css/site.min.css" asp-append-version="true" />
+        <link href="~/css/template.css" rel="stylesheet" />
+
+        <link rel="shortcut icon" href="~/images/favicon.png">
+        <link rel="apple-touch-icon" href="~/images/apple-touch-icon.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="~/images/apple-touch-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="~/images/apple-touch-icon-114x114.png">
+        <!-- Web Fonts-->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600%7cPlayfair+Display:400i" rel="stylesheet">
+        @*<link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">*@
+        <!-- Plugins-->
+        <link href="~/css/plugins.min.css" rel="stylesheet" />
+        <!-- Template core CSS-->
+        <link href="~/css/site.css" rel="stylesheet" />
+
+    </environment>
+    <!-- Favicons-->
+    @*<link rel="shortcut icon" href="~/images/favicon.png">
+        <link rel="apple-touch-icon" href="~/images/apple-touch-icon.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="~/images/apple-touch-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="~/images/apple-touch-icon-114x114.png">
+        <!-- Web Fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600%7cPlayfair+Display:400i" rel="stylesheet">
+        <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+        <!-- Plugins-->
+        <link href="~/css/plugins.min.css" rel="stylesheet" />
+        <!-- Template core CSS-->
+        <link href="~/css/site.css" rel="stylesheet" />
+        <link href="~/css/template.css" rel="stylesheet" />*@
+</head>
+<body>
+    <!-- Preloader-->
+    @*<div class="page-loader">
+        <div class="page-loader-inner">
+            <div class="spinner">
+                <div class="double-bounce1"></div>
+                <div class="double-bounce2"></div>
+            </div>
+        </div>
+    </div>*@
+    <!-- Preloader end-->
+    <!-- Header-->
+    <header class="header header-transparent">
+        <div class="container-fluid">
+            <!-- Brand-->
+            <div class="inner-header">
+                @*<a class="inner-brand nav-title" asp-controller="Home" asp-action="Index">WM | World Merchant</a>*@
+                @*<img src="~/images/Logo/LogoWM(Branco).png" alt="Alternate Text" />*@
+                <a class="navbar-brand" href="#">
+                    <img id="crewimage" src="~/images/Logo/LogoWM(Branco).png" class="logo" alt="a">
+                </a>
+            </div>
+            @*https://stackoverflow.com/questions/46800555/replace-an-img-src-on-scroll*@
+            <!-- Just an image -->
+            @*<nav class="navbar navbar-light bg-light">
+            <a class="navbar-brand" href="#">
+                <img src="~/images/Logo/LogoWM(Branco).png" width="30" height="30" alt="">
+            </a>
+        </nav>*@
+
+
+
+            <!-- Navigation-->
+            @if (SignInManager.IsSignedIn(User))
+            {
+                <div class="inner-navigation collapse">
+                    <div class="inner-nav onepage-nav">
+                        <ul>
+                            <li><a asp-controller="Home" asp-action="Index"><span class="menu-item-span">Home</span></a></li>
+                            <li><a href="#services"><span class="menu-item-span">Serviços</span></a></li>
+                            <li><a href="#products"><span class="menu-item-span">Produtos</span></a></li>
+
+                            <li><a href="#about"><span class="menu-item-span">Sobre Nós</span></a></li>
+                            <li><a href="#contact"><span class="menu-item-span">Contato</span></a></li>
+                            <li>
+                                @*<a><span class="menu-item-span colos">@UserManager.GetUserName(User)</span></a>*@
+
+
+
+                                <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <span class="menu-item-span colos">@UserManager.GetUserName(User) <span><i class="fas fa-cogs aumentaFont"></i></span></span>
+
+                                </a>
+
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                    <a class="dropdown-item" asp-action="Index" asp-controller="Products"><i class="far fa-edit"></i> Editar Produtos</a>
+
+                                    <a class="dropdown-item" asp-action="Index" asp-controller="Subcategories"><i class="far fa-edit"></i> Editar Subcategorias</a>
+                                    <a class="dropdown-item" asp-action="ResetPassword" asp-controller="Account"><i class="far fa-edit"></i> Minha Conta</a>
+                                    <a class="dropdown-item" asp-action="Register" asp-controller="Account"><i class="fas fa-plus"></i> Adicionar Usuario</a>
+                                </div>
+
+
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="extra-nav">
+                    <ul>
+                        <li>
+                            <form asp-action="Logout" asp-controller="Account" method="post">
+                                <button id="logout_button" type="submit"><i class="menu-item-span ti-user text-danger" data-toggle="popover" data-trigger="hover" data-content="Sair"></i></button>
+                            </form>
+                        </li>
+                        <li class="nav-toggle"><a href="#" data-toggle="collapse" data-target=".inner-navigation"><span class="menu-item-span"><i class="ti-menu"></i></span></a></li>
+
+                    </ul>
+                </div>
+            }
+            else
+            {
+                <div class="inner-navigation collapse">
+                    <div class="inner-nav onepage-nav">
+                        <ul>
+                            <li><a asp-controller="Home" asp-action="Index"><span class="menu-item-span">Home</span></a></li>
+                            <li><a href="#services"><span class="menu-item-span">Serviços</span></a></li>
+                            <li><a href="#products"><span class="menu-item-span">Produtos</span></a></li>
+                            <li><a href="#about"><span class="menu-item-span">Sobre Nós</span></a></li>
+                            <li><a href="#contact"><span class="menu-item-span">Contato</span></a></li>
+                        </ul>
+                    </div>
+                </div>
+                @*<div class="extra-nav">
+                <ul>
+
+                    <li><a class="top-bar-cart" asp-controller="Account" asp-action="Register"><span class="menu-item-span">REGISTER</span></a></li>
+
+                    <li><a class="top-bar-cart" asp-controller="Account" asp-action="Login"><span class="menu-item-span">LOGIN</span></a></li>
+
+                </ul>
+            </div>*@
+                <div class="extra-nav">
+                    <ul>
+                        @*<li><a class="top-bar-cart" asp-controller="Account" asp-action="Login"><span class="menu-item-span">LOGIN</span></a></li>*@
+                        <li>
+                            <form asp-action="Logout" asp-controller="Account" method="post">
+                                <button id="logout_button" type="submit"><i class="menu-item-span ti-user" data-toggle="popover" data-trigger="hover" data-content="Entrar"></i></button>
+                            </form>
+                        </li>
+
+                        <li class="nav-toggle"><a href="#" data-toggle="collapse" data-target=".inner-navigation"><span class="menu-item-span"><i class="ti-menu"></i></span></a></li>
+                    </ul>
+                </div>
+            }
+            @*asp-area="" asp-controller="Product" asp-action="Index"*@
+
+
+
+
+
+
+
+
+        </div>
+    </header>
+
+    <partial name="_CookieConsentPartial" />
+    <!-- Wrapper-->
+    <div class="wrapper">
+
+
+
+        @RenderBody()
+        <!-- Footer-->
+        <footer class="footer">
+
+            <div class="footer-widgets">
+                <div class="container">
+                    @*<div class="row">
+                        <div class="container">
+                            <img src="~/images/Logo/LogoWM(Branco).png" class alt="Alternate Text" />
+                        </div>
+
+                    </div>*@
+
+
+                    @*<div class="row">
+                        <div class="col-md-4"></div>
+                        <img src="~/images/Logo/LogoWM(Branco).png"  alt="Alternate Text" />
+
+                        <div class="col-md-4"></div>
+                    </div>*@
+
+
+                    <div class="row">
+                        <div class="col-md-3">
+                            <!-- Text widget-->
+                            <aside class="widget widget-text">
+                                <div class="widget-title">
+                                    <h4>Contato</h4>
+                                </div>
+                                <div class="textwidget">
+                                    <address>
+
+                                        @*R. José Eduardo, 228 - Vila Celina, Espírito Santo do Pinhal - SP, 13990-000*@
+
+                                        R. José Eduardo, 228 - Vila Celina<br />
+                                        Espírito Santo do Pinhal, São Paulo - 13990-000<br />
+                                        @*<abbr title="Phone">P:</abbr>
+                            425.555.0100*@
+                                    </address>
+
+
+                                    <address>
+                                        <strong>Suporte:</strong> <a href="mailto:Support@example.com">Support@example.com</a><br />
+                                        <strong>Marketing:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>
+                                    </address>
+
+                                    <h5>Phone: +55(19)3651-3651</h5>
+                                    <img src="~/images/Logo/LogoWM(Branco).png" class="logoFooter" alt="Alternate Text" />
+
+                                </div>
+                            </aside>
+                        </div>
+
+                        @* GOOGLE MAPS *@
+                        <div class="col-md-9" id="map">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bar">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="copyright">
+                                @*<p>© 2019 - EzWeb <a href="#"> Dev. Henrique</a></p>*@
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Footer end-->
+    </div>
+    <!-- Wrapper end-->
+    <!-- To top button-->
+    <a class="scroll-top" href="#top"><i class="fas fa-angle-up"></i></a>
+    @*//22.1958° S, 46.7561° W*@
+    @*R. José Eduardo, 228 - Vila Celina, Espírito Santo do Pinhal - SP, 13990-000*@
+
+    <script>
+
+       
+
+
+        function initMap() {
+
+            //options
+            var options = {
+                zoom: 19,
+                center: { lat: -22.191769, lng: -46.752382 }
+            }
+            //add map
+            var map = new google.maps.Map(document.getElementById('map'), options)
+
+            //add marker
+            //var marker = new google.maps.Marker({
+            //    position: { lat: -22.191769, lng: -46.752382 },
+            //    map:map 
+            //});
+        }
+        
+    </script>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAA7BSi7g4q5BUO97BgxNcIbNQh32duOrc&callback=initMap"
+            async defer></script>
+
+    <environment include="Development">
+        <script src="~/js/custom/jquery-3.2.1.min.js"></script>
+        <script src="~/js/custom/popper.min.js"></script>
+        <script src="~/js/custom/bootstrap/bootstrap.min.js"></script>
+        @*<script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyA0rANX07hh6ASNKdBr4mZH0KZSqbHYc3Q"></script>*@
+        <script src="~/js/custom/plugins.min.js"></script>
+        <script src="~/js/custom/custom.min.js"></script>
+    </environment>
+    <environment exclude="Development">
+        @*<script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-3.3.1.min.js"
+                asp-fallback-src="~/lib/jquery/dist/jquery.min.js"
+                asp-fallback-test="window.jQuery"
+                crossorigin="anonymous"
+                integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT">
+        </script>*@
+        @*<script src="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.7/bootstrap.min.js"
+                asp-fallback-src="~/lib/bootstrap/dist/js/bootstrap.min.js"
+                asp-fallback-test="window.jQuery && window.jQuery.fn && window.jQuery.fn.modal"
+                crossorigin="anonymous"
+                integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa">
+        </script>*@
+
+        <script src="~/js/custom/jquery-3.2.1.min.js"></script>
+        <script src="~/js/custom/popper.min.js"></script>
+        <script src="~/js/custom/bootstrap/bootstrap.min.js"></script>
+        <script src="~/js/custom/plugins.min.js"></script>
+        <script src="~/js/custom/custom.min.js"></script>
+
+        @*<script src="~/js/site.min.js" asp-append-version="true"></script>*@
+    </environment>
+
+    @RenderSection("Scripts", required: false)
+    <script>
+        $(document).ready(function () {
+            $('[data-toggle="popover"]').popover();
+
+
+        });
+
+
+        var initialSrc = "/images/Logo/LogoWM(Branco).png";
+        var scrollSrc = "/images/Logo/LogoWM(Preto).png";
+
+        $(window).scroll(function () {
+            var value = $(this).scrollTop();
+            if (value > 100) {
+                $(".logo").attr("src", scrollSrc);
+
+                $(".logo").attr("width", 100);
+            }
+            else {
+                $(".logo").attr("src", initialSrc);
+                $(".logo").attr("width", 130);
+            }
+        });
+
+
+        $(window).resize(function () {
+            if ($(window).width() <= 991) {
+                console.log($(window).width());
+                $("#crewimage").each(function () {
+                    $(this).attr("src", "/images/Logo/LogoWM(Preto).png");
+                });
+            } else if ($(window).width() >= 992) {
+                $("#crewimage").each(function () {
+                    $(this).attr("src", "/images/Logo/LogoWM(Branco).png");
+                });
+            }
+        });
+    </script>
+
+</body>
+</html>

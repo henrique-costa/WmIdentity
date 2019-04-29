@@ -1,0 +1,394 @@
+D:\Users\henri\Desktop\Pluralsight\WmIdentity\WmIdentity\bin\Debug\netcoreapp2.1\WmIdentity.deps.json
+D:\Users\henri\Desktop\Pluralsight\WmIdentity\WmIdentity\bin\Debug\netcoreapp2.1\WmIdentity.runtimeconfig.json
+D:\Users\henri\Desktop\Pluralsight\WmIdentity\WmIdentity\bin\Debug\netcoreapp2.1\WmIdentity.runtimeconfig.dev.json
+D:\Users\henri\Desktop\Pluralsight\WmIdentity\WmIdentity\bin\Debug\netcoreapp2.1\WmIdentity.dll
+D:\Users\henri\Desktop\Pluralsight\WmIdentity\WmIdentity\bin\Debug\netcoreapp2.1\WmIdentity.pdb
+D:\Users\henri\Desktop\Pluralsight\WmIdentity\WmIdentity\bin\Debug\netcoreapp2.1\WmIdentity.Views.dll
+D:\Users\henri\Desktop\Pluralsight\WmIdentity\WmIdentity\bin\Debug\netcoreapp2.1\WmIdentity.Views.pdb
+D:\Users\henri\Desktop\Pluralsight\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\WmIdentity.csproj.CoreCompileInputs.cache
+D:\Users\henri\Desktop\Pluralsight\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\WmIdentity.RazorAssemblyInfo.cache
+D:\Users\henri\Desktop\Pluralsight\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\WmIdentity.RazorAssemblyInfo.cs
+D:\Users\henri\Desktop\Pluralsight\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\WmIdentity.AssemblyInfoInputs.cache
+D:\Users\henri\Desktop\Pluralsight\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\WmIdentity.AssemblyInfo.cs
+D:\Users\henri\Desktop\Pluralsight\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\WmIdentity.TagHelpers.input.cache
+D:\Users\henri\Desktop\Pluralsight\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\WmIdentity.TagHelpers.output.cache
+D:\Users\henri\Desktop\Pluralsight\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\WmIdentity.RazorCoreGenerate.cache
+D:\Users\henri\Desktop\Pluralsight\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Account\Login.g.cshtml.cs
+D:\Users\henri\Desktop\Pluralsight\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Account\Register.g.cshtml.cs
+D:\Users\henri\Desktop\Pluralsight\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.g.cshtml.cs
+D:\Users\henri\Desktop\Pluralsight\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.g.cshtml.cs
+D:\Users\henri\Desktop\Pluralsight\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+D:\Users\henri\Desktop\Pluralsight\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.g.cshtml.cs
+D:\Users\henri\Desktop\Pluralsight\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+D:\Users\henri\Desktop\Pluralsight\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+D:\Users\henri\Desktop\Pluralsight\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+D:\Users\henri\Desktop\Pluralsight\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+D:\Users\henri\Desktop\Pluralsight\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+D:\Users\henri\Desktop\Pluralsight\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+D:\Users\henri\Desktop\Pluralsight\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\WmIdentity.RazorTargetAssemblyInfo.cache
+D:\Users\henri\Desktop\Pluralsight\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\WmIdentity.RazorTargetAssemblyInfo.cs
+D:\Users\henri\Desktop\Pluralsight\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\WmIdentity.Views.pdb
+D:\Users\henri\Desktop\Pluralsight\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\WmIdentity.dll
+D:\Users\henri\Desktop\Pluralsight\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\WmIdentity.pdb
+D:\Users\henri\Desktop\Pluralsight\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\WmIdentity.csproj.CopyComplete
+D:\Users\henri\Desktop\Pluralsight\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Success.g.cshtml.cs
+D:\Users\henri\Desktop\Pluralsight\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Account\ForgotPassword.g.cshtml.cs
+D:\Users\henri\Desktop\Pluralsight\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Account\ResetPassword.g.cshtml.cs
+D:\Users\henri\Desktop\Pluralsight\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Product\Create.g.cshtml.cs
+D:\Users\henri\Desktop\Pluralsight\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Product\Delete.g.cshtml.cs
+D:\Users\henri\Desktop\Pluralsight\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Product\Details.g.cshtml.cs
+D:\Users\henri\Desktop\Pluralsight\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Product\Edit.g.cshtml.cs
+D:\Users\henri\Desktop\Pluralsight\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Product\Index.g.cshtml.cs
+D:\Users\henri\Desktop\Pluralsight\WmIdentity\WmIdentity\bin\Debug\netcoreapp2.1\pt-BR\WmIdentity.resources.dll
+D:\Users\henri\Desktop\Pluralsight\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\WmIdentity.Resources.Controllers.HomeController.pt-BR.resources
+D:\Users\henri\Desktop\Pluralsight\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\WmIdentity.csproj.GenerateResource.cache
+D:\Users\henri\Desktop\Pluralsight\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\pt-BR\WmIdentity.resources.dll
+D:\Users\henri\Desktop\Pluralsight\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\WmIdentity.Resources.Views.Account.Register.pt-BR.resources
+D:\Users\henri\Desktop\Pluralsight\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\WmIdentity.Resources.ViewModels.RegisterVM.pt-BR.resources
+D:\Users\henri\Desktop\Pluralsight\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\WmIdentity.csprojAssemblyReference.cache
+D:\Users\henri\Desktop\Projects\WmIdentity\WmIdentity\bin\Debug\netcoreapp2.1\WmIdentity.deps.json
+D:\Users\henri\Desktop\Projects\WmIdentity\WmIdentity\bin\Debug\netcoreapp2.1\WmIdentity.runtimeconfig.json
+D:\Users\henri\Desktop\Projects\WmIdentity\WmIdentity\bin\Debug\netcoreapp2.1\WmIdentity.runtimeconfig.dev.json
+D:\Users\henri\Desktop\Projects\WmIdentity\WmIdentity\bin\Debug\netcoreapp2.1\WmIdentity.dll
+D:\Users\henri\Desktop\Projects\WmIdentity\WmIdentity\bin\Debug\netcoreapp2.1\WmIdentity.pdb
+D:\Users\henri\Desktop\Projects\WmIdentity\WmIdentity\bin\Debug\netcoreapp2.1\pt-BR\WmIdentity.resources.dll
+D:\Users\henri\Desktop\Projects\WmIdentity\WmIdentity\bin\Debug\netcoreapp2.1\WmIdentity.Views.dll
+D:\Users\henri\Desktop\Projects\WmIdentity\WmIdentity\bin\Debug\netcoreapp2.1\WmIdentity.Views.pdb
+D:\Users\henri\Desktop\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\WmIdentity.Resources.Controllers.HomeController.pt-BR.resources
+D:\Users\henri\Desktop\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\WmIdentity.Resources.ViewModels.RegisterVM.pt-BR.resources
+D:\Users\henri\Desktop\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\WmIdentity.Resources.Views.Account.Register.pt-BR.resources
+D:\Users\henri\Desktop\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\WmIdentity.csproj.GenerateResource.cache
+D:\Users\henri\Desktop\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\WmIdentity.csproj.CoreCompileInputs.cache
+D:\Users\henri\Desktop\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\WmIdentity.RazorAssemblyInfo.cache
+D:\Users\henri\Desktop\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\WmIdentity.RazorAssemblyInfo.cs
+D:\Users\henri\Desktop\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\WmIdentity.AssemblyInfoInputs.cache
+D:\Users\henri\Desktop\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\WmIdentity.AssemblyInfo.cs
+D:\Users\henri\Desktop\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\pt-BR\WmIdentity.resources.dll
+D:\Users\henri\Desktop\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\WmIdentity.TagHelpers.input.cache
+D:\Users\henri\Desktop\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\WmIdentity.TagHelpers.output.cache
+D:\Users\henri\Desktop\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\WmIdentity.RazorCoreGenerate.cache
+D:\Users\henri\Desktop\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Account\ForgotPassword.g.cshtml.cs
+D:\Users\henri\Desktop\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Account\Login.g.cshtml.cs
+D:\Users\henri\Desktop\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Account\Register.g.cshtml.cs
+D:\Users\henri\Desktop\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Account\ResetPassword.g.cshtml.cs
+D:\Users\henri\Desktop\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Category\Create.g.cshtml.cs
+D:\Users\henri\Desktop\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Category\Delete.g.cshtml.cs
+D:\Users\henri\Desktop\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Category\Details.g.cshtml.cs
+D:\Users\henri\Desktop\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Category\Edit.g.cshtml.cs
+D:\Users\henri\Desktop\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Category\Index.g.cshtml.cs
+D:\Users\henri\Desktop\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.g.cshtml.cs
+D:\Users\henri\Desktop\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.g.cshtml.cs
+D:\Users\henri\Desktop\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+D:\Users\henri\Desktop\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.g.cshtml.cs
+D:\Users\henri\Desktop\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Product\Create.g.cshtml.cs
+D:\Users\henri\Desktop\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Product\Delete.g.cshtml.cs
+D:\Users\henri\Desktop\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Product\Details.g.cshtml.cs
+D:\Users\henri\Desktop\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Product\Edit.g.cshtml.cs
+D:\Users\henri\Desktop\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Product\Index.g.cshtml.cs
+D:\Users\henri\Desktop\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Shared\ConfirmEmail.g.cshtml.cs
+D:\Users\henri\Desktop\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+D:\Users\henri\Desktop\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Success.g.cshtml.cs
+D:\Users\henri\Desktop\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+D:\Users\henri\Desktop\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+D:\Users\henri\Desktop\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_SecundaryLayout.g.cshtml.cs
+D:\Users\henri\Desktop\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+D:\Users\henri\Desktop\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+D:\Users\henri\Desktop\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+D:\Users\henri\Desktop\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\WmIdentity.RazorTargetAssemblyInfo.cache
+D:\Users\henri\Desktop\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\WmIdentity.RazorTargetAssemblyInfo.cs
+D:\Users\henri\Desktop\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\WmIdentity.Views.pdb
+D:\Users\henri\Desktop\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\WmIdentity.dll
+D:\Users\henri\Desktop\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\WmIdentity.pdb
+D:\Users\henri\Desktop\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\WmIdentity.csproj.CopyComplete
+E:\New folder\WmIdentity\WmIdentity\bin\Debug\netcoreapp2.1\WmIdentity.deps.json
+E:\New folder\WmIdentity\WmIdentity\bin\Debug\netcoreapp2.1\WmIdentity.runtimeconfig.json
+E:\New folder\WmIdentity\WmIdentity\bin\Debug\netcoreapp2.1\WmIdentity.runtimeconfig.dev.json
+E:\New folder\WmIdentity\WmIdentity\bin\Debug\netcoreapp2.1\WmIdentity.dll
+E:\New folder\WmIdentity\WmIdentity\bin\Debug\netcoreapp2.1\WmIdentity.pdb
+E:\New folder\WmIdentity\WmIdentity\bin\Debug\netcoreapp2.1\pt-BR\WmIdentity.resources.dll
+E:\New folder\WmIdentity\WmIdentity\bin\Debug\netcoreapp2.1\WmIdentity.Views.dll
+E:\New folder\WmIdentity\WmIdentity\bin\Debug\netcoreapp2.1\WmIdentity.Views.pdb
+E:\New folder\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\WmIdentity.csprojAssemblyReference.cache
+E:\New folder\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\WmIdentity.Resources.Controllers.HomeController.pt-BR.resources
+E:\New folder\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\WmIdentity.Resources.ViewModels.RegisterVM.pt-BR.resources
+E:\New folder\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\WmIdentity.Resources.Views.Account.Register.pt-BR.resources
+E:\New folder\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\WmIdentity.csproj.GenerateResource.cache
+E:\New folder\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\WmIdentity.csproj.CoreCompileInputs.cache
+E:\New folder\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\WmIdentity.RazorAssemblyInfo.cache
+E:\New folder\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\WmIdentity.RazorAssemblyInfo.cs
+E:\New folder\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\WmIdentity.AssemblyInfoInputs.cache
+E:\New folder\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\WmIdentity.AssemblyInfo.cs
+E:\New folder\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\pt-BR\WmIdentity.resources.dll
+E:\New folder\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\WmIdentity.TagHelpers.input.cache
+E:\New folder\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\WmIdentity.TagHelpers.output.cache
+E:\New folder\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\WmIdentity.RazorCoreGenerate.cache
+E:\New folder\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Account\ForgotPassword.g.cshtml.cs
+E:\New folder\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Account\Login.g.cshtml.cs
+E:\New folder\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Account\Register.g.cshtml.cs
+E:\New folder\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Account\ResetPassword.g.cshtml.cs
+E:\New folder\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Category\Create.g.cshtml.cs
+E:\New folder\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Category\Delete.g.cshtml.cs
+E:\New folder\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Category\Details.g.cshtml.cs
+E:\New folder\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Category\Edit.g.cshtml.cs
+E:\New folder\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Category\Index.g.cshtml.cs
+E:\New folder\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.g.cshtml.cs
+E:\New folder\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.g.cshtml.cs
+E:\New folder\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+E:\New folder\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.g.cshtml.cs
+E:\New folder\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Product\Create.g.cshtml.cs
+E:\New folder\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Product\Delete.g.cshtml.cs
+E:\New folder\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Product\Details.g.cshtml.cs
+E:\New folder\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Product\Edit.g.cshtml.cs
+E:\New folder\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Product\Index.g.cshtml.cs
+E:\New folder\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Shared\ConfirmEmail.g.cshtml.cs
+E:\New folder\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+E:\New folder\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Success.g.cshtml.cs
+E:\New folder\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+E:\New folder\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+E:\New folder\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_SecundaryLayout.g.cshtml.cs
+E:\New folder\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+E:\New folder\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+E:\New folder\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+E:\New folder\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\WmIdentity.RazorTargetAssemblyInfo.cache
+E:\New folder\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\WmIdentity.RazorTargetAssemblyInfo.cs
+E:\New folder\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\WmIdentity.Views.pdb
+E:\New folder\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\WmIdentity.dll
+E:\New folder\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\WmIdentity.pdb
+E:\New folder\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\WmIdentity.csproj.CopyComplete
+E:\New folder\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
+F:\New folder\WmIdentity\WmIdentity\bin\Debug\netcoreapp2.1\WmIdentity.deps.json
+F:\New folder\WmIdentity\WmIdentity\bin\Debug\netcoreapp2.1\WmIdentity.runtimeconfig.json
+F:\New folder\WmIdentity\WmIdentity\bin\Debug\netcoreapp2.1\WmIdentity.runtimeconfig.dev.json
+F:\New folder\WmIdentity\WmIdentity\bin\Debug\netcoreapp2.1\WmIdentity.dll
+F:\New folder\WmIdentity\WmIdentity\bin\Debug\netcoreapp2.1\WmIdentity.pdb
+F:\New folder\WmIdentity\WmIdentity\bin\Debug\netcoreapp2.1\pt-BR\WmIdentity.resources.dll
+F:\New folder\WmIdentity\WmIdentity\bin\Debug\netcoreapp2.1\WmIdentity.Views.dll
+F:\New folder\WmIdentity\WmIdentity\bin\Debug\netcoreapp2.1\WmIdentity.Views.pdb
+F:\New folder\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\WmIdentity.csprojAssemblyReference.cache
+F:\New folder\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\WmIdentity.Resources.Controllers.HomeController.pt-BR.resources
+F:\New folder\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\WmIdentity.Resources.ViewModels.RegisterVM.pt-BR.resources
+F:\New folder\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\WmIdentity.Resources.Views.Account.Register.pt-BR.resources
+F:\New folder\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\WmIdentity.csproj.GenerateResource.cache
+F:\New folder\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\WmIdentity.csproj.CoreCompileInputs.cache
+F:\New folder\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\WmIdentity.RazorAssemblyInfo.cache
+F:\New folder\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\WmIdentity.RazorAssemblyInfo.cs
+F:\New folder\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
+F:\New folder\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\WmIdentity.AssemblyInfoInputs.cache
+F:\New folder\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\WmIdentity.AssemblyInfo.cs
+F:\New folder\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\pt-BR\WmIdentity.resources.dll
+F:\New folder\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\WmIdentity.TagHelpers.input.cache
+F:\New folder\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\WmIdentity.TagHelpers.output.cache
+F:\New folder\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\WmIdentity.RazorCoreGenerate.cache
+F:\New folder\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Account\ForgotPassword.g.cshtml.cs
+F:\New folder\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Account\Login.g.cshtml.cs
+F:\New folder\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Account\Register.g.cshtml.cs
+F:\New folder\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Account\ResetPassword.g.cshtml.cs
+F:\New folder\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Category\Create.g.cshtml.cs
+F:\New folder\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Category\Delete.g.cshtml.cs
+F:\New folder\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Category\Details.g.cshtml.cs
+F:\New folder\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Category\Edit.g.cshtml.cs
+F:\New folder\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Category\Index.g.cshtml.cs
+F:\New folder\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.g.cshtml.cs
+F:\New folder\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.g.cshtml.cs
+F:\New folder\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+F:\New folder\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.g.cshtml.cs
+F:\New folder\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Product\Create.g.cshtml.cs
+F:\New folder\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Product\Delete.g.cshtml.cs
+F:\New folder\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Product\Details.g.cshtml.cs
+F:\New folder\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Product\Edit.g.cshtml.cs
+F:\New folder\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Product\Index.g.cshtml.cs
+F:\New folder\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Shared\ConfirmEmail.g.cshtml.cs
+F:\New folder\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+F:\New folder\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Success.g.cshtml.cs
+F:\New folder\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+F:\New folder\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+F:\New folder\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_SecundaryLayout.g.cshtml.cs
+F:\New folder\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+F:\New folder\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+F:\New folder\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+F:\New folder\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\WmIdentity.RazorTargetAssemblyInfo.cache
+F:\New folder\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\WmIdentity.RazorTargetAssemblyInfo.cs
+F:\New folder\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\WmIdentity.Views.pdb
+F:\New folder\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\WmIdentity.dll
+F:\New folder\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\WmIdentity.pdb
+F:\New folder\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\WmIdentity.csproj.CopyComplete
+D:\Users\henri\Desktop\Projects\checarseehmaisnovo\WmIdentity\WmIdentity\bin\Debug\netcoreapp2.1\WmIdentity.deps.json
+D:\Users\henri\Desktop\Projects\checarseehmaisnovo\WmIdentity\WmIdentity\bin\Debug\netcoreapp2.1\WmIdentity.runtimeconfig.json
+D:\Users\henri\Desktop\Projects\checarseehmaisnovo\WmIdentity\WmIdentity\bin\Debug\netcoreapp2.1\WmIdentity.runtimeconfig.dev.json
+D:\Users\henri\Desktop\Projects\checarseehmaisnovo\WmIdentity\WmIdentity\bin\Debug\netcoreapp2.1\WmIdentity.dll
+D:\Users\henri\Desktop\Projects\checarseehmaisnovo\WmIdentity\WmIdentity\bin\Debug\netcoreapp2.1\WmIdentity.pdb
+D:\Users\henri\Desktop\Projects\checarseehmaisnovo\WmIdentity\WmIdentity\bin\Debug\netcoreapp2.1\pt-BR\WmIdentity.resources.dll
+D:\Users\henri\Desktop\Projects\checarseehmaisnovo\WmIdentity\WmIdentity\bin\Debug\netcoreapp2.1\WmIdentity.Views.dll
+D:\Users\henri\Desktop\Projects\checarseehmaisnovo\WmIdentity\WmIdentity\bin\Debug\netcoreapp2.1\WmIdentity.Views.pdb
+D:\Users\henri\Desktop\Projects\checarseehmaisnovo\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\WmIdentity.csprojAssemblyReference.cache
+D:\Users\henri\Desktop\Projects\checarseehmaisnovo\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\WmIdentity.Resources.Controllers.HomeController.pt-BR.resources
+D:\Users\henri\Desktop\Projects\checarseehmaisnovo\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\WmIdentity.Resources.ViewModels.RegisterVM.pt-BR.resources
+D:\Users\henri\Desktop\Projects\checarseehmaisnovo\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\WmIdentity.Resources.Views.Account.Register.pt-BR.resources
+D:\Users\henri\Desktop\Projects\checarseehmaisnovo\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\WmIdentity.csproj.GenerateResource.cache
+D:\Users\henri\Desktop\Projects\checarseehmaisnovo\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\WmIdentity.csproj.CoreCompileInputs.cache
+D:\Users\henri\Desktop\Projects\checarseehmaisnovo\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\WmIdentity.RazorAssemblyInfo.cache
+D:\Users\henri\Desktop\Projects\checarseehmaisnovo\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\WmIdentity.RazorAssemblyInfo.cs
+D:\Users\henri\Desktop\Projects\checarseehmaisnovo\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
+D:\Users\henri\Desktop\Projects\checarseehmaisnovo\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\WmIdentity.AssemblyInfoInputs.cache
+D:\Users\henri\Desktop\Projects\checarseehmaisnovo\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\WmIdentity.AssemblyInfo.cs
+D:\Users\henri\Desktop\Projects\checarseehmaisnovo\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\pt-BR\WmIdentity.resources.dll
+D:\Users\henri\Desktop\Projects\checarseehmaisnovo\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\WmIdentity.TagHelpers.input.cache
+D:\Users\henri\Desktop\Projects\checarseehmaisnovo\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\WmIdentity.TagHelpers.output.cache
+D:\Users\henri\Desktop\Projects\checarseehmaisnovo\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\WmIdentity.RazorCoreGenerate.cache
+D:\Users\henri\Desktop\Projects\checarseehmaisnovo\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Account\ForgotPassword.g.cshtml.cs
+D:\Users\henri\Desktop\Projects\checarseehmaisnovo\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Account\Login.g.cshtml.cs
+D:\Users\henri\Desktop\Projects\checarseehmaisnovo\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Account\Register.g.cshtml.cs
+D:\Users\henri\Desktop\Projects\checarseehmaisnovo\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Account\ResetPassword.g.cshtml.cs
+D:\Users\henri\Desktop\Projects\checarseehmaisnovo\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Category\Create.g.cshtml.cs
+D:\Users\henri\Desktop\Projects\checarseehmaisnovo\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Category\Delete.g.cshtml.cs
+D:\Users\henri\Desktop\Projects\checarseehmaisnovo\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Category\Details.g.cshtml.cs
+D:\Users\henri\Desktop\Projects\checarseehmaisnovo\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Category\Edit.g.cshtml.cs
+D:\Users\henri\Desktop\Projects\checarseehmaisnovo\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Category\Index.g.cshtml.cs
+D:\Users\henri\Desktop\Projects\checarseehmaisnovo\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.g.cshtml.cs
+D:\Users\henri\Desktop\Projects\checarseehmaisnovo\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.g.cshtml.cs
+D:\Users\henri\Desktop\Projects\checarseehmaisnovo\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+D:\Users\henri\Desktop\Projects\checarseehmaisnovo\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.g.cshtml.cs
+D:\Users\henri\Desktop\Projects\checarseehmaisnovo\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Product\Create.g.cshtml.cs
+D:\Users\henri\Desktop\Projects\checarseehmaisnovo\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Product\Delete.g.cshtml.cs
+D:\Users\henri\Desktop\Projects\checarseehmaisnovo\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Product\Details.g.cshtml.cs
+D:\Users\henri\Desktop\Projects\checarseehmaisnovo\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Product\Edit.g.cshtml.cs
+D:\Users\henri\Desktop\Projects\checarseehmaisnovo\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Product\Index.g.cshtml.cs
+D:\Users\henri\Desktop\Projects\checarseehmaisnovo\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Shared\ConfirmEmail.g.cshtml.cs
+D:\Users\henri\Desktop\Projects\checarseehmaisnovo\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+D:\Users\henri\Desktop\Projects\checarseehmaisnovo\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Success.g.cshtml.cs
+D:\Users\henri\Desktop\Projects\checarseehmaisnovo\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+D:\Users\henri\Desktop\Projects\checarseehmaisnovo\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+D:\Users\henri\Desktop\Projects\checarseehmaisnovo\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_SecundaryLayout.g.cshtml.cs
+D:\Users\henri\Desktop\Projects\checarseehmaisnovo\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+D:\Users\henri\Desktop\Projects\checarseehmaisnovo\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+D:\Users\henri\Desktop\Projects\checarseehmaisnovo\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+D:\Users\henri\Desktop\Projects\checarseehmaisnovo\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\WmIdentity.RazorTargetAssemblyInfo.cache
+D:\Users\henri\Desktop\Projects\checarseehmaisnovo\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\WmIdentity.RazorTargetAssemblyInfo.cs
+D:\Users\henri\Desktop\Projects\checarseehmaisnovo\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\WmIdentity.Views.pdb
+D:\Users\henri\Desktop\Projects\checarseehmaisnovo\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\WmIdentity.dll
+D:\Users\henri\Desktop\Projects\checarseehmaisnovo\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\WmIdentity.pdb
+D:\Users\henri\Desktop\Projects\checarseehmaisnovo\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\WmIdentity.csproj.CopyComplete
+D:\Users\henri\Desktop\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
+D:\Users\henri\Desktop\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\WmIdentity.csprojAssemblyReference.cache
+F:\Projects\WmIdentity\WmIdentity\bin\Debug\netcoreapp2.1\WmIdentity.deps.json
+F:\Projects\WmIdentity\WmIdentity\bin\Debug\netcoreapp2.1\WmIdentity.runtimeconfig.json
+F:\Projects\WmIdentity\WmIdentity\bin\Debug\netcoreapp2.1\WmIdentity.runtimeconfig.dev.json
+F:\Projects\WmIdentity\WmIdentity\bin\Debug\netcoreapp2.1\WmIdentity.dll
+F:\Projects\WmIdentity\WmIdentity\bin\Debug\netcoreapp2.1\WmIdentity.pdb
+F:\Projects\WmIdentity\WmIdentity\bin\Debug\netcoreapp2.1\pt-BR\WmIdentity.resources.dll
+F:\Projects\WmIdentity\WmIdentity\bin\Debug\netcoreapp2.1\WmIdentity.Views.dll
+F:\Projects\WmIdentity\WmIdentity\bin\Debug\netcoreapp2.1\WmIdentity.Views.pdb
+F:\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\WmIdentity.Resources.Controllers.HomeController.pt-BR.resources
+F:\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\WmIdentity.Resources.ViewModels.RegisterVM.pt-BR.resources
+F:\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\WmIdentity.Resources.Views.Account.Register.pt-BR.resources
+F:\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\WmIdentity.csproj.GenerateResource.cache
+F:\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\WmIdentity.csproj.CoreCompileInputs.cache
+F:\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\WmIdentity.RazorAssemblyInfo.cache
+F:\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\WmIdentity.RazorAssemblyInfo.cs
+F:\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\WmIdentity.AssemblyInfoInputs.cache
+F:\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\WmIdentity.AssemblyInfo.cs
+F:\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\pt-BR\WmIdentity.resources.dll
+F:\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\WmIdentity.TagHelpers.input.cache
+F:\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\WmIdentity.TagHelpers.output.cache
+F:\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\WmIdentity.RazorCoreGenerate.cache
+F:\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Account\ForgotPassword.g.cshtml.cs
+F:\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Account\Login.g.cshtml.cs
+F:\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Account\Register.g.cshtml.cs
+F:\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Account\ResetPassword.g.cshtml.cs
+F:\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.g.cshtml.cs
+F:\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.g.cshtml.cs
+F:\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+F:\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.g.cshtml.cs
+F:\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Shared\ConfirmEmail.g.cshtml.cs
+F:\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+F:\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Success.g.cshtml.cs
+F:\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+F:\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+F:\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_SecundaryLayout.g.cshtml.cs
+F:\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+F:\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+F:\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+F:\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\WmIdentity.RazorTargetAssemblyInfo.cache
+F:\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\WmIdentity.RazorTargetAssemblyInfo.cs
+F:\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\WmIdentity.Views.pdb
+F:\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\WmIdentity.dll
+F:\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\WmIdentity.pdb
+F:\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\WmIdentity.csproj.CopyComplete
+F:\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Shared\EmailSuccess.g.cshtml.cs
+E:\Projects\WmIdentity\WmIdentity\bin\Debug\netcoreapp2.1\WmIdentity.deps.json
+E:\Projects\WmIdentity\WmIdentity\bin\Debug\netcoreapp2.1\WmIdentity.runtimeconfig.json
+E:\Projects\WmIdentity\WmIdentity\bin\Debug\netcoreapp2.1\WmIdentity.runtimeconfig.dev.json
+E:\Projects\WmIdentity\WmIdentity\bin\Debug\netcoreapp2.1\WmIdentity.dll
+E:\Projects\WmIdentity\WmIdentity\bin\Debug\netcoreapp2.1\WmIdentity.pdb
+E:\Projects\WmIdentity\WmIdentity\bin\Debug\netcoreapp2.1\pt-BR\WmIdentity.resources.dll
+E:\Projects\WmIdentity\WmIdentity\bin\Debug\netcoreapp2.1\WmIdentity.Views.dll
+E:\Projects\WmIdentity\WmIdentity\bin\Debug\netcoreapp2.1\WmIdentity.Views.pdb
+E:\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\WmIdentity.Resources.Controllers.HomeController.pt-BR.resources
+E:\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\WmIdentity.Resources.ViewModels.RegisterVM.pt-BR.resources
+E:\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\WmIdentity.Resources.Views.Account.Register.pt-BR.resources
+E:\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\WmIdentity.csproj.GenerateResource.cache
+E:\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\WmIdentity.csproj.CoreCompileInputs.cache
+E:\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\WmIdentity.RazorAssemblyInfo.cache
+E:\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\WmIdentity.RazorAssemblyInfo.cs
+E:\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\WmIdentity.AssemblyInfoInputs.cache
+E:\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\WmIdentity.AssemblyInfo.cs
+E:\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\pt-BR\WmIdentity.resources.dll
+E:\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\WmIdentity.TagHelpers.input.cache
+E:\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\WmIdentity.TagHelpers.output.cache
+E:\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\WmIdentity.RazorCoreGenerate.cache
+E:\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Account\ForgotPassword.g.cshtml.cs
+E:\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Account\Login.g.cshtml.cs
+E:\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Account\Register.g.cshtml.cs
+E:\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Account\ResetPassword.g.cshtml.cs
+E:\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.g.cshtml.cs
+E:\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.g.cshtml.cs
+E:\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+E:\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.g.cshtml.cs
+E:\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Shared\ConfirmEmail.g.cshtml.cs
+E:\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Shared\EmailSuccess.g.cshtml.cs
+E:\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+E:\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Success.g.cshtml.cs
+E:\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+E:\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+E:\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_SecundaryLayout.g.cshtml.cs
+E:\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+E:\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+E:\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+E:\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\WmIdentity.RazorTargetAssemblyInfo.cache
+E:\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\WmIdentity.RazorTargetAssemblyInfo.cs
+E:\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\WmIdentity.Views.pdb
+E:\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\WmIdentity.dll
+E:\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\WmIdentity.pdb
+E:\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\WmIdentity.csproj.CopyComplete
+F:\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Shared\EmailExistenteError.g.cshtml.cs
+E:\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Shared\EmailExistenteError.g.cshtml.cs
+F:\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Products\Delete.g.cshtml.cs
+F:\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Products\Details.g.cshtml.cs
+F:\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Products\Edit.g.cshtml.cs
+F:\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Products\Index.g.cshtml.cs
+F:\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Products\Create.g.cshtml.cs
+F:\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
+E:\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Products\Create.g.cshtml.cs
+E:\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Products\Delete.g.cshtml.cs
+E:\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Products\Details.g.cshtml.cs
+E:\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Products\Edit.g.cshtml.cs
+E:\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Products\Index.g.cshtml.cs
+E:\Projects\WmIdentity\WmIdentity\bin\Debug\netcoreapp2.1\WmIdentity.dll.config
+E:\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\WmIdentity.dll.config
+E:\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\WmIdentity.csprojAssemblyReference.cache
+E:\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
+F:\Projects\WmIdentity\WmIdentity\bin\Debug\netcoreapp2.1\WmIdentity.dll.config
+F:\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\WmIdentity.dll.config
+F:\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Products\Contact.g.cshtml.cs
+F:\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\WmIdentity.csprojAssemblyReference.cache
+E:\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\Products\Contact.g.cshtml.cs
+F:\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\SubCategories\Create.g.cshtml.cs
+F:\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\SubCategories\Delete.g.cshtml.cs
+F:\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\SubCategories\Details.g.cshtml.cs
+F:\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\SubCategories\Edit.g.cshtml.cs
+F:\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\SubCategories\Index.g.cshtml.cs
+E:\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\SubCategories\Create.g.cshtml.cs
+E:\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\SubCategories\Delete.g.cshtml.cs
+E:\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\SubCategories\Details.g.cshtml.cs
+E:\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\SubCategories\Edit.g.cshtml.cs
+E:\Projects\WmIdentity\WmIdentity\obj\Debug\netcoreapp2.1\Razor\Views\SubCategories\Index.g.cshtml.cs

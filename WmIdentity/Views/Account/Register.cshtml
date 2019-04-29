@@ -1,0 +1,55 @@
+﻿@model WmIdentity.ViewModels.RegisterVM
+
+@{
+    ViewData["Title"] = "Register";
+    Layout = "~/Views/Shared/_SecundaryLayout.cshtml";
+}
+
+<!-- Wrapper-->
+<div class="wrapper">
+    <section id="registerSection" class="module-cover parallax fullscreen text-center" data-background="../images/Carousel/Banner-HD.png" data-overlay="0.65" data-gradient="">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 m-auto">
+                    <div class="m-b-20">
+                        <h4>Registrar Usuário</h4>
+                    </div>
+                    <div class="m-b-20">
+                        <form asp-action="Register" asp-controller="Account" method="post" class="form-horizontal">
+                            <div asp-validation-summary="All" class="text-danger error-window"></div>
+                            <div class="form-group">
+                                <input asp-for="UserName" class="form-control" placeholder="Email"/>
+                                @*<span asp-validation-for="UserName" class="text-danger"></span>*@
+                            </div>
+                            <div class="form-group">
+                                <input asp-for="Password" class="form-control" placeholder="Senha"/>
+                                @*<span asp-validation-for="Password" class="text-danger"></span>*@
+                            </div>
+                            <div class="form-group">
+                                <input asp-for="ConfirmPassword" class="form-control" placeholder="Confirma Senha"/>
+                                @*<span asp-validation-for="ConfirmPassword" class="text-danger"></span>*@
+                            </div>
+                            <div class="form-group">
+                                <button class="btn btn-block btn-round btn-brand" type="submit">Registrar</button>
+
+                            </div>
+                        </form>                 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+
+
+
+
+
+
+
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

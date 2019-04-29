@@ -1,0 +1,163 @@
+﻿@model X.PagedList.IPagedList<WmIdentity.Models.Product>
+@using X.PagedList.Mvc.Core;
+@using X.PagedList;
+
+@{var numList = Enum.GetValues(typeof(Category));}
+
+
+<link href="~/Content/PagedList.css" rel="stylesheet" />
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_SecundaryLayout.cshtml";
+}
+<div class="problemSolver"></div>
+<div class="container padding50">
+
+    <h2>Selecionar:</h2>
+
+    <p>
+        <a asp-action="Create" class="btn btn-primary"><i class="fas fa-plus"></i> Criar Novo</a>
+    </p>
+
+    <form asp-action="Index" asp-controller="Products" method="get">
+        <div class="row">
+            <div class="col">
+                <div class="form-group">
+                    @*Procurar por nome: @Html.TextBox("SearchString"})*@
+                    <input class="form-control form-control-sm" type="tel" placeholder="Buscar por nome..." id="SearchString" name="SearchString" value="@ViewBag.CurrentFilter">
+                </div>
+
+            </div>
+
+
+        </div>
+        <div class="form-group">
+            <h5>Filtro por categoria: </h5>
+
+            @foreach (object radiotext in numList)
+            {
+                @Html.RadioButton("catSelected", radiotext.ToString())
+                <label class="form-check-label" for="catSelected">@radiotext.ToString()</label>
+            }
+        </div>
+
+
+        <div class="form-group">
+            <h5>Filtro por Subcategoria: </h5>
+            @foreach (var checkBoxText in ViewBag.Subcategories)
+            {
+                <div class="form-check-inline">
+                    <input name="AreChecked" type="checkbox" value="@checkBoxText" /> @checkBoxText
+                </div>
+            }
+        </div>
+
+        <input type="submit" value="Filtrar" class="btn btn-group-lg btn-info" />
+
+
+    </form>
+    <br />
+    <!-- Page Heading -->
+    <h1 class="my-4 text-center">
+        Lista
+        <small>de Produtos</small>
+    </h1>
+    <br />
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.ActionLink("Nome", "Index", new { sortOrder = ViewBag.NameSortParm, currentFilter = ViewBag.CurrentFilter })
+
+                </th>
+
+                <th>
+                    @Html.ActionLink("Categorias", "Index", new { sortOrder = ViewBag.DateSortParm, currentFilter = ViewBag.CurrentFilter })
+
+                </th>
+                <th>Subcategorias</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+
+
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Name)
+                    </td>
+
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Category)
+                    </td>
+                    <td>
+                        @{
+                            foreach (var subcat in item.ProductSubcategories.OrderBy(s => s.SubCategory.Name))
+                            {
+                                @subcat.SubCategory.Name<br />
+                            }
+                        }
+                    </td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                        <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                        <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <br />
+    Página @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) de @Model.PageCount
+
+    @Html.PagedListPager(Model, page => Url.Action("Index",
+        new { page, sortOrder = ViewBag.CurrentSort, currentFilter = ViewBag.CurrentFilter }))
+
+
+</div>
+
+
+
+<!-- Page Content -->
+<div class="container">
+
+
+
+    <div class="row">
+
+        @foreach (var prod in Model)
+        {
+
+            <div class="col-lg-4 col-sm-6 portfolio-item margin-bottom-sm30">
+                <div class="card h-100">
+                    <a asp-controller="Products" asp-action="Details" asp-route-id="@prod.Id"><img class="card-img-top" src="~/Uploads/Products/@prod.PhotoPath" alt="teste"></a>
+
+
+
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            <a asp-controller="Products" asp-action="Details" asp-route-id="@prod.Id">@prod.Name</a>
+                        </h4>
+                        <p class="card-text block-with-text">@prod.Description</p>
+
+
+                    </div>
+                    <a class="btn btn-sm btn-outline-warning   btn-brand" role="button" asp-controller="Products" asp-action="Details" asp-route-id="@prod.Id">Saiba mais</a>
+                </div>
+            </div>
+        }
+    </div>
+    <br />
+    Página @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) de @Model.PageCount
+
+    @Html.PagedListPager(Model, page => Url.Action("Index",
+        new { page, sortOrder = ViewBag.CurrentSort, currentFilter = ViewBag.CurrentFilter }))
+    <!-- /.row -->
+    <br />
+</div>
+<br />
+<!-- /.container -->

@@ -1,0 +1,337 @@
+﻿
+@{
+    ViewData["Title"] = "index";
+}
+ @*Valor, Ética e Resultado
+2 - Desde 1999 conectando produtores e consumidores BtoB
+3 - Foco em prospecção, desenvolvimento e comercialização de Insumos Industriais*@
+
+@*@model WmIdentity.ViewModels.DisplayAllProductsVM*@
+@model WmIdentity.ViewModels.CustomerMailFormVM
+<!-- Hero-->
+<section class="module-cover-slides fullscreen" id="home">
+    <ul class="slides-container">
+        <li class="parallax text-center" data-overlay="0.5">
+            <img src="~/images/Carousel/Banner-HD.png" alt="">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1 class="m-b-20"><strong>Valor, Ética e Resultado</strong></h1>
+                        @*<h5 class="m-b-40">Valor, Ética e Resultado</h5>*@
+                        <p><a class="btn btn-lg btn-circle btn-brand" href="#about">Conheça a história</a></p>
+                        @*<p><a class="btn btn-lg btn-circle btn-brand" href="#">Get Started</a></p>*@
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li class="parallax" data-overlay="0.5">
+            <img src="~/images/Carousel/Industry.jpg" alt="">
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1 class="m-b-20"><strong>Desde 1999 conectando produtores e consumidores BtoB</strong></h1>
+                        @*<h6 class="m-b-40">Desde 1999 conectando produtores e consumidores BtoB</h6>*@
+                        <p><a class="btn btn-lg btn-circle btn-brand" asp-controller="Product" asp-action="Index">Conhecer Produtos</a></p>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li class="parallax text-center" data-overlay="0.5">
+            <img src="~/images/Carousel/Harvest_field.jpg" alt="">
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3 class="m-b-20"><strong>Foco em prospecção, desenvolvimento e comercialização de Insumos Industriais</strong></h3>
+                        @*<p class="m-b-40">Deixamos o canal sempre aberto para tirar qualquer dúvida, <br /> fazer contato e darmos início a parcerias.</p>*@
+                        <p><a class="btn btn-lg btn-circle btn-primary" href="#contact">Mande um email</a></p>
+                    </div>
+                </div>
+            </div>
+        </li>
+    </ul>
+    <div class="slides-navigation"><a class="prev" href="#"><span class="ti-angle-left"></span></a><a class="next" href="#"><span class="ti-angle-right"></span></a></div>
+</section>
+<!-- Hero end-->
+<!-- Services -->
+<section id="services" class="module">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-9 col-md-12 m-auto text-center">
+                <h1>Serviços</h1>
+                <p class="lead p-maior"><b>World Merchant</b> é uma empresa prestadora de serviços focada em prospecção, desenvolvimento e comercialização de insumos industriais, químicos e agrícolas</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="space" data-MY="40px"></div>
+            </div>
+        </div>
+        <div class="row services-p">
+            <div class="col-md-4" id="asas">
+                <div class="icon-box text-center">
+                    <div class="icon-box-icon"><span class="fas fa-clipboard-list"></span></div>
+                    <div class="icon-box-title">
+                        <h1 class="services-h">Pré-Venda</h1>
+                    </div>
+                    <div class="icon-box-content">
+                        <p>Prospecção. Qualificação de oportunidades. Desenvolvimento técnico comercial. Estudo da concorrência.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="icon-box text-center">
+                    <div class="icon-box-icon"><span class="fas fa-handshake"></span></div>
+                    <div class="icon-box-title">
+                        <h1 class="services-h">Venda</h1>
+                    </div>
+                    <div class="icon-box-content">
+                        <p>Visitas. Confecção de propostas. Negociação. Gerenciamento de Pedidos.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="icon-box text-center">
+                    <div class="icon-box-icon"><span class="fas fa-headset"></span></div>
+                    <div class="icon-box-title">
+                        <h1 class="services-h">Pós Venda</h1>
+                    </div>
+                    <div class="icon-box-content">
+                        <p>
+                            Gerenciamento Logístico.
+                            Administração dos estoques dos clientes.
+                            Suporte 24/7.
+                            Manutenção de relacionamento.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Services end-->
+<!-- Products -->
+<section id="products" class="module">
+    <div class="container">
+
+        <!-- Page Heading -->
+        <h1 class="my-4 text-center">
+            Nossos Produtos
+        </h1>
+        <p class="text-center p-maior">Representamos empresas do mais alto nível presentes no setor industrial.</p>
+
+
+        <div class="row">
+            <div class="col-lg-6 mb-4">
+                <div class="card h-100">
+                    <a href="#"><img class="card-img-top" src="~/images/Carousel/Banner-HD.png" alt=""></a>
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            <a href="#">Agroindústria</a>
+                        </h4>
+                        <p class="card-text services-p">Portifólio completo de insumos agroindustriais diferenciados de excelente desempenho, testados e que integram as mais diversas formulações para as infinitas possibilidades.</p>
+
+                    </div>
+                    @*<a class="btn btn-outline-warning" href="#">Conheça</a>*@
+                    @*<a class="btn btn-sm btn-outline-info btn-brand" role="button" asp-controller="Products" asp-action="Index">Conheça</a>*@
+                </div>
+            </div>
+            <div class="col-lg-6 mb-4">
+                <div class="card h-100">
+                    <a href="#"><img class="card-img-top" src="~/images/module-25.png" alt=""></a>
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            <a href="#">Indústria Química</a>
+                        </h4>
+                        <p class="card-text services-p">Commodities essenciais fornecidos por alguns dos maiores fabricantes do Brasil.</p>
+
+
+
+                    </div>
+
+
+                    @*<a class="btn btn-sm btn-outline-info btn-brand" role="button" asp-page="/ProductsVM/Index">Produtos</a>*@
+
+
+
+
+                </div>
+
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-md-4"></div>
+            <div class="col-md-4 text-center">
+                <a class="btn btn-lg btn-outline-info btn-brand" role="button" asp-controller="Products" asp-action="Index">Conheça nossos produtos</a>
+            </div>
+            <div class="col-md-4"></div>
+        </div>
+    </div>
+</section>
+<!-- /.Products -->
+<!-- About-->
+<section id="about" class="module parallax" data-background="/images/Sobre-HD.png">
+    <div class="container" style="padding-bottom:100px;">
+
+        <div class="row align-items-center">
+            <div class="col-md-6 text-center">
+                <h1 class="about-h">Sobre a Empresa</h1>
+                <p class="about-p">Criada em 1999 como uma solução econômica, ética, sustentável e prática para conectar produtores e consumidores <b>BtoB</b> - <b>World Merchant</b> oferece respostas rápidas, eficazes e eficientes em todas as etapas comerciais desde a pré-venda, venda e pós-venda, criando valor para todos os envolvidos, consolidando parcerias. </p>
+            </div>
+            <div class="col-lg-5 offset-lg-1">
+                <div class="icon-box icon-box-left m-b-20">
+                    <div class="icon-box-icon">
+                        <div class="counter-icon"><i class="fas fa-user-tie number-icon-color"></i></div>
+                    </div>
+                    <div class="icon-box-title services-h">
+                        <h5>Equipe de vendedores experientes</h5>
+                    </div>
+                    @*<div class="icon-box-content">
+                            <p>Map where your photos were taken and discover local points of interest. Map where your photos. Map where your photos were taken and discover.</p>
+                        </div>*@
+                </div>
+                <div class="icon-box icon-box-left m-b-20">
+                    <div class="icon-box-icon">
+                        <div class="counter-icon"><i class="number-icon-color fas fa-chart-line"></i></div>
+                    </div>
+                    <div class="icon-box-title">
+                        <h5>Acompanhamento logístico e de crédito</h5>
+                    </div>
+                    @*<div class="icon-box-content">
+                            <p>Map where your photos were taken and discover local points of interest. Map where your photos. Map where your photos were taken and discover.</p>
+                        </div>*@
+                </div>
+                <div class="icon-box icon-box-left">
+                    <div class="icon-box-icon">
+
+                        <div class="counter-icon"><i class="number-icon-color far fa-file-alt"></i></div>
+
+                    </div>
+                    <div class="icon-box-title">
+                        <h5>Fornecimento de relatórios</h5>
+                    </div>
+                    @*<div class="icon-box-content">
+                            <p>Map where your photos were taken and discover local points of interest. Map where your photos. Map where your photos were taken and discover.</p>
+                        </div>*@
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- About -->
+<!-- Form-->
+<section class="module divider-top" id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-9 m-auto text-center">
+                <h1>Vamos conversar!</h1>
+                <p class="lead about-p">Deixamos o canal sempre aberto para tirar qualquer dúvida, fazer contato e darmos início a parcerias.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="space" data-MY="60px"></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-8 m-auto">
+                <form method="post" asp-action="SendEmailAction" asp-controller="Home">
+                    <div asp-validation-summary="All" class="text-danger error-window"></div>
+
+
+
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <input class="form-control" asp-for="nome" placeholder="Nome" required>
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <input class="form-control" asp-for="email" placeholder="E-mail" required>
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <input class="form-control" asp-for="subject" placeholder="Assunto" required>
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <textarea class="form-control" asp-for="message" placeholder="Mensagem..." rows="6"></textarea>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <p>
+                                <button class="btn btn-block btn-brand" type="submit">Enviar Mensagem</button>
+                            </p>
+                        </div>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Form end-->
+<!-- Counters-->
+@*bg-gray p-b-0 padding-sections parallax*@
+@*<section class="module parallax padding-sections" data-background="/images/Numbers-HD.png" data-overlay="0.5">
+        <div class="container margin-top-90">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="counter">
+                        <div class="counter-icon"><i class="number-icon-color far fa-handshake"></i></div>
+                        <div class="counter-number">
+                            <h6><strong class="counter-timer" data-from="0" data-to="1538">0</strong></h6>
+                        </div>
+                        <div class="counter-title">Pedidos</div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="counter">
+                        <div class="counter-icon"><i class="number-icon-color fas fa-dollar-sign icon-size"></i></div>
+                        <div class="counter-number">
+                            <h6><strong class="counter-timer" data-from="0" data-to="2124">0</strong></h6>
+                        </div>
+                        <div class="counter-title">Valor Comercializado</div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="counter">
+                        <div class="counter-icon"><i class="number-icon-color far fa-building"></i></div>
+                        <div class="counter-number">
+                            <h6><strong class="counter-timer" data-from="0" data-to="3128">0</strong></h6>
+                        </div>
+                        <div class="counter-title">Empresas Representadas</div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="counter">
+                        <div class="counter-icon"><i class="number-icon-color fas fa-globe"></i></div>
+                        <div class="counter-number">
+                            <h6><strong class="counter-timer" data-from="0" data-to="9534">0</strong></h6>
+                        </div>
+                        <div class="counter-title">Clientes Atendidos</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>*@
+<!-- Counters end-->
+<!-- Image-->
+@*<section class="module no-gutters p-0">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12"><img src="~/images/Numbers-HD.png" alt=""></div>
+            </div>
+
+        </div>
+    </section>*@
+<!-- Image end-->

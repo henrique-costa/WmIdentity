@@ -1,0 +1,135 @@
+﻿@page
+@model WmIdentity.Pages.ProductsVM.IndexModel
+
+@{
+   
+}
+
+<h2>Todos os Produtos: </h2>
+
+<form method="get" asp-page="./Index">
+
+    @*@Html.AntiForgeryToken()*@
+
+    <div class="form-group">
+        <div class="input-group">
+            @*<input type="search" class="form-control" asp-for="SearchTerm" />*@
+            <input type="search" class="form-control" name="SearchString" value="@Model.CurrentFilter" placeholder="Buscar por nome do produto..." />
+
+
+        </div>
+
+        <h2>Filtro por categoria: </h2>
+
+        <div class="form-check">
+            @*            @Html.RadioButton("x", Model.Category.GetTypeCode(), false, "Quimico")*@
+            <input type="radio" asp-for="CatFilter" value="Quimico" />
+
+            <label class="form-check-label">
+                Quimico
+            </label>
+        </div>
+        <div class="form-check">
+            @*@Html.RadioButton("y", Model.Category, false, "Agricola")*@
+            <input type="radio" asp-for="CatFilter" value="Agricola" />
+
+            <label class="form-check-label">
+                Agrícola
+            </label>
+        </div>
+
+        <h2>Filtro por Subcategoria: </h2>
+
+
+        @foreach (var item in Model.Product.SubCategories)
+        {
+            <div class="form-check-inline">
+
+                <input name="AreChecked" type="checkbox" value="@item.Name" />
+                @item.Name
+            </div>
+
+        }
+
+
+
+        <div class="input-group-append">
+            <button type="submit" class="btn btn-outline-secondary">Filtrar</button>
+        </div>
+    </div>
+
+</form>
+
+
+
+<p>
+    <a asp-page="Create" class="btn btn-outline-primary">Criar Novo</a>
+</p>
+
+
+
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>
+                <a asp-page="./Index" asp-route-sortOrder="@Model.NameSort"
+                   asp-route-currentFilter="@Model.CurrentFilter">
+                    Nome
+                </a>
+            </th>
+            <th>
+                <a asp-page="./Index" asp-route-sortOrder="@Model.CatSort"
+                   asp-route-currentFilter="@Model.CurrentFilter">
+                    Categoria
+                </a>
+            </th>
+
+            <th>Sub-Categorias</th>
+            <th>Opções</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Product.Products)
+        {
+
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Category)
+                </td>
+
+                <td>
+                    @{
+                        foreach (var subcat in item.ProductSubcategories.OrderBy(s => s.SubCategory.Name))
+                        {
+                            @subcat.SubCategory.Name<br />
+                        }
+                    }
+                </td>
+                <td>
+
+                    <a class="btn btn-lg" asp-page="./Details" asp-route-productId="@item.Id">
+                        <i class="fas fa-search-plus"></i>
+                        <small>Ver</small>
+                    </a>
+                    <a class="btn btn-lg" asp-page="./Edit" asp-route-productId="@item.Id">
+                        <i class="far fa-edit"></i>
+                        <small>Editar</small>
+
+                    </a>
+                    <a class="btn btn-lg" asp-page="./Delete" asp-route-productId="@item.Id">
+                        <i class="far fa-trash-alt"></i>
+                        <small>Deletar</small>
+
+                    </a>
+                </td>
+            </tr>
+        }
+
+
+
+    </tbody>
+</table>

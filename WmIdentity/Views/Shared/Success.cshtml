@@ -1,0 +1,36 @@
+﻿@*<div class="problemSolver"></div>
+
+    <div class="alert alert-success">
+        <p>Sucesso!</p>
+    </div>*@
+
+
+@{
+    ViewData["Title"] = "Success";
+    Layout = "~/Views/Shared/_SecundaryLayout.cshtml";
+}
+
+
+
+
+
+<div class="wrapper">
+    <section id="registerSection" class="module-cover parallax fullscreen text-center" data-background="../images/Carousel/Banner-HD.png" data-overlay="0.65" data-gradient="">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 m-auto">
+                    @*<div class="m-b-20">*@
+                        <h4>Conta cadastrada!</h4>
+                    @*</div>*@
+                    <div class="m-b-20 alert alert-success">
+                        <p>Email confirmado!</p>
+                    </div>
+                    <a asp-controller="Home" asp-action="Index" class="btn btn-warning">Voltar</a>
+
+                    <a asp-controller="Account" asp-action="Login" class="btn btn-success">Fazer Login</a>
+
+                </div>
+            </div>
+        </div>
+    </section>
+</div>

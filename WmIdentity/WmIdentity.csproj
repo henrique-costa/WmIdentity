@@ -1,0 +1,155 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <UserSecretsId>e4ab5713-6750-41c1-a25d-a55592c04fd4</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Pages\**" />
+    <Compile Remove="Views\Category\**" />
+    <Compile Remove="Views\ProductsVM\**" />
+    <Compile Remove="Views\Product\**" />
+    <Compile Remove="wwwroot\images\avatar\**" />
+    <Compile Remove="wwwroot\images\blog\**" />
+    <Compile Remove="wwwroot\images\clients\**" />
+    <Compile Remove="wwwroot\images\demo\**" />
+    <Compile Remove="wwwroot\images\features\**" />
+    <Compile Remove="wwwroot\images\main\**" />
+    <Compile Remove="wwwroot\images\portfolio\**" />
+    <Compile Remove="wwwroot\images\shop\**" />
+    <Compile Remove="wwwroot\images\team\**" />
+    <Compile Remove="wwwroot\images\widgets\**" />
+    <Content Remove="Pages\**" />
+    <Content Remove="Views\Category\**" />
+    <Content Remove="Views\ProductsVM\**" />
+    <Content Remove="Views\Product\**" />
+    <Content Remove="wwwroot\images\avatar\**" />
+    <Content Remove="wwwroot\images\blog\**" />
+    <Content Remove="wwwroot\images\clients\**" />
+    <Content Remove="wwwroot\images\demo\**" />
+    <Content Remove="wwwroot\images\features\**" />
+    <Content Remove="wwwroot\images\main\**" />
+    <Content Remove="wwwroot\images\portfolio\**" />
+    <Content Remove="wwwroot\images\shop\**" />
+    <Content Remove="wwwroot\images\team\**" />
+    <Content Remove="wwwroot\images\widgets\**" />
+    <EmbeddedResource Remove="Pages\**" />
+    <EmbeddedResource Remove="Views\Category\**" />
+    <EmbeddedResource Remove="Views\ProductsVM\**" />
+    <EmbeddedResource Remove="Views\Product\**" />
+    <EmbeddedResource Remove="wwwroot\images\avatar\**" />
+    <EmbeddedResource Remove="wwwroot\images\blog\**" />
+    <EmbeddedResource Remove="wwwroot\images\clients\**" />
+    <EmbeddedResource Remove="wwwroot\images\demo\**" />
+    <EmbeddedResource Remove="wwwroot\images\features\**" />
+    <EmbeddedResource Remove="wwwroot\images\main\**" />
+    <EmbeddedResource Remove="wwwroot\images\portfolio\**" />
+    <EmbeddedResource Remove="wwwroot\images\shop\**" />
+    <EmbeddedResource Remove="wwwroot\images\team\**" />
+    <EmbeddedResource Remove="wwwroot\images\widgets\**" />
+    <None Remove="Pages\**" />
+    <None Remove="Views\Category\**" />
+    <None Remove="Views\ProductsVM\**" />
+    <None Remove="Views\Product\**" />
+    <None Remove="wwwroot\images\avatar\**" />
+    <None Remove="wwwroot\images\blog\**" />
+    <None Remove="wwwroot\images\clients\**" />
+    <None Remove="wwwroot\images\demo\**" />
+    <None Remove="wwwroot\images\features\**" />
+    <None Remove="wwwroot\images\main\**" />
+    <None Remove="wwwroot\images\portfolio\**" />
+    <None Remove="wwwroot\images\shop\**" />
+    <None Remove="wwwroot\images\team\**" />
+    <None Remove="wwwroot\images\widgets\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Controllers\CategoryController.cs" />
+    <Compile Remove="Controllers\ProductController.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\images\apple-touch-icon-114x114.png" />
+    <Content Remove="wwwroot\images\apple-touch-icon-72x72.png" />
+    <Content Remove="wwwroot\images\apple-touch-icon.png" />
+    <Content Remove="wwwroot\images\close.png" />
+    <Content Remove="wwwroot\images\favicon.png" />
+    <Content Remove="wwwroot\images\grabbing.png" />
+    <Content Remove="wwwroot\images\logo-light-2.png" />
+    <Content Remove="wwwroot\images\logo-light.png" />
+    <Content Remove="wwwroot\images\logo.png" />
+    <Content Remove="wwwroot\images\map-icon.png" />
+    <Content Remove="wwwroot\images\menu-1.jpg" />
+    <Content Remove="wwwroot\images\menu-2.jpg" />
+    <Content Remove="wwwroot\images\menu-3.jpg" />
+    <Content Remove="wwwroot\images\module-1.png" />
+    <Content Remove="wwwroot\images\module-10.jpg" />
+    <Content Remove="wwwroot\images\module-11.jpg" />
+    <Content Remove="wwwroot\images\module-12.jpg" />
+    <Content Remove="wwwroot\images\module-14.jpg" />
+    <Content Remove="wwwroot\images\module-15.jpg" />
+    <Content Remove="wwwroot\images\module-16.jpg" />
+    <Content Remove="wwwroot\images\module-17.jpg" />
+    <Content Remove="wwwroot\images\module-18.jpg" />
+    <Content Remove="wwwroot\images\module-19.jpg" />
+    <Content Remove="wwwroot\images\module-1c.jpg" />
+    <Content Remove="wwwroot\images\module-2.jpg" />
+    <Content Remove="wwwroot\images\module-20.jpg" />
+    <Content Remove="wwwroot\images\module-21.jpg" />
+    <Content Remove="wwwroot\images\module-22.jpg" />
+    <Content Remove="wwwroot\images\module-23.jpg" />
+    <Content Remove="wwwroot\images\module-24.jpg" />
+    <Content Remove="wwwroot\images\module-25.png" />
+    <Content Remove="wwwroot\images\module-251.jpg" />
+    <Content Remove="wwwroot\images\module-25reduced.jpg" />
+    <Content Remove="wwwroot\images\module-3.jpg" />
+    <Content Remove="wwwroot\images\module-4.jpg" />
+    <Content Remove="wwwroot\images\module-5.jpg" />
+    <Content Remove="wwwroot\images\module-6.jpg" />
+    <Content Remove="wwwroot\images\module-7.jpg" />
+    <Content Remove="wwwroot\images\module-8.jpg" />
+    <Content Remove="wwwroot\images\module-9.jpg" />
+    <Content Remove="wwwroot\images\Numbers-HD.png" />
+    <Content Remove="wwwroot\images\Sobre-HD.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MailKit" Version="2.1.2" />
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Html.Abstractions" Version="2.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.identity.entityFrameworkcore" Version="2.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.1.3" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.ViewFeatures" Version="2.1.3" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="2.1.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.1.1" />
+    <PackageReference Include="Microsoft.Extensions.Identity.stores" Version="2.1.1" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.1" />
+    <PackageReference Include="SendGrid" Version="9.9.0" />
+    <PackageReference Include="X.PagedList.Mvc.Core" Version="7.6.0" />
+
+  </ItemGroup>
+
+  <PropertyGroup>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <GenerateBindingRedirectsOutputType>true</GenerateBindingRedirectsOutputType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Update="Views\Shared\ConfirmEmail.cshtml">
+      <Pack>$(IncludeRazorContentInPack)</Pack>
+    </Content>
+    <Content Update="Views\Shared\EmailSuccess.cshtml">
+      <Pack>$(IncludeRazorContentInPack)</Pack>
+    </Content>
+    <Content Update="Views\Shared\_SecundaryLayout.cshtml">
+      <Pack>$(IncludeRazorContentInPack)</Pack>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\images\Logo\" />
+  </ItemGroup>
+
+</Project>

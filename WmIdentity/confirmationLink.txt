@@ -1,0 +1,13 @@
+
+
+
+
+
+
+https://localhost:44368/Account/ConfirmEmailAddress?token=CfDJ8JkdCuNwTPlKmNcERttivo5gfLgfElpnparqwXd8ksaDSmrGFcatdSA0K9KzTEibIeajnb%2F0FyVDN5eUFrwR1lRrImXPKU5IaZIabMwJF4P%2FfXHSyaq4JN%2FqwctL2IwHthVm1RF1yXjuiqDTwMnn4PylntSecyXtg52qIsz945Kstgt%2Bft5h5dAhsFSygeX9KboWymQ149C43YuDLXE8aI5%2BYoIVx%2BORU7tDlS2y5TE90mhsNlNIAZVPeNirkgg9Fw%3D%3D&email=henrique_vc@hotmail.com
+
+
+
+
+
+
